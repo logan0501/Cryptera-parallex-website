@@ -87,3 +87,18 @@ body{background-color: #56207E;}
 .fore-rocks img{
     height: 110% !important;
 }
+
+.mobile-bg{
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
+    .sectone{
+        display: none;
+    }
+    body{
+        background-image: url("assets/mobile-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+    }
+}
