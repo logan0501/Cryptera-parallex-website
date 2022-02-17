@@ -58,6 +58,17 @@ body{background-color: #56207E;}
 .globe img{
     width: 60% !important;
 }
+.text{
+    position: absolute;
+    left: 10% !important;
+    top: -30% !important;
+    z-index: 0;
+    mix-blend-mode: screen;
+ 
+}
+.text img{
+    width: 90% !important;
+}
 .rock{
     position: absolute ;
     left: 12% !important;
